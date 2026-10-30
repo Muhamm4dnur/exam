@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+button:active {
+    transform: scale(1.1)
+}
+
+body {
+    background: var(--background);
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 82%;
+}
+
+:root {
+    --background: #2b2b2b;
+    --background---secondary: #3b3b3b;
+    --caption--label-text: #858584;
+    --text: #fff;
+    --call-to-action: #a259ff;
+    --blue-accent: #377df7;
+    --red-accent: #ff7262;
+    --font-family: "Space Mono", sans-serif;
+    --second-family: "Work Sans", sans-serif;
+}
+
+button:active {
+    transform: scale(1.05);
+}
+
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nav_div1 {
+    display: flex;
+    width: 243px;
+    height: 32px;
+}
+
+.nav_div2 {
+    display: flex;
+    gap: 60px;
+}
+
+.nav_div2 ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav_div2 ul li a {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.nav_div2 button {
+    display: flex;
+    background: var(--call-to-action);
+    border-radius: 20px;
+    width: 152px;
+    height: 60px;
+    align-items: center;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+    gap: 12px;
+    justify-content: center;
+    border: none;
+}
+
+.nav_div2 button h2 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
+
+/* 
+**********************
+    hero - section
+**********************
+ */
+
+.hero {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.hero_left_box {
+    width: 510px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero_left_box h1 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.hero_left_box p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.hero_left_box button {
+    border-radius: 20px;
+    width: 224px;
+    height: 60px;
+    background: var(--call-to-action);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: none;
+
+}
+
+.hero_left_box button p {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+}
+
+.hero_people_count {
+    display: flex;
+    gap: 90px;
+}
+
+.hero_typing h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.hero_right_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 510px;
+    height: 510px;
+}
+
+.hero_right_box_text {
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+    width: 510px;
+    height: 109px;
+    background: var(--background---secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero_right_box_text h3 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.hero_right_box_text p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* 
+**********************
+        main
+    hero - section
+**********************
+ */
+
+.section1 h2 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.section1 p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.section_child1 {
+    display: flex;
+    gap: 30px;
+}
+
+.box1 {
+    margin-top: 60px;
+}
+
+.box1 button {
+    border-radius: 20px;
+    padding: 32px 15px;
+    width: 100px;
+    height: 100px;
+    background: var(--call-to-action);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--text);
+    border: none;
+}
+
+.box1_child {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.box1_child2 h3 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.box1_child2 p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--text);
+}
+
+.cards2_text h3 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.section2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.section2_child1_left {
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.section2_child1_left h2 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.section2_child1_left p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.view_rankings_cards{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+.view_rank_card {
+    border-radius: 20px;
+    padding: 20px;
+    width: 240px;
+    height: 238px;
+    background: var(--background---secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.view_rank_h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.order_number {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--caption--label-text);
+}
+
+.section2_child1_left button {
+    border: 2px solid var(--call-to-action);
+    border-radius: 20px;
+    width: 247px;
+    height: 60px;
+    background: transparent;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.view_rank_h3 h3 {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+.view_rank_total_sales span {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--caption--label-text);
+}
+
+.second_little_text {
+    font-family: var(--font-family) !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 140% !important;
+    color: var(--text) !important;
+}
+
+/* 
+**********************
+    hero - section
+**********************
+ */
+
+/* 
+**********************
+    hero - section
+**********************
+ */
+
+/* 
+**********************
+    hero - section
+**********************
+ */
